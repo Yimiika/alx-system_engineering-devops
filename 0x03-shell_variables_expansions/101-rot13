@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "${1//[a-zA-Z]/{a..z}{A..Z}}" | tr '[a-zA-Z]' '[n-za-mN-ZA-M]'
